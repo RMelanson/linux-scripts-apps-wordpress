@@ -1,5 +1,7 @@
-# WILDFLY CONFIGURATION PARAMETERS
-pkg=mySql
+#!/bin/bash
+
+# WORDPRESS CONFIGURATION PARAMETERS
+pkg=wordpress
 mySqlAdmin=admin
 mySqlOwner=mySql
 mySqlGroup=mySql
