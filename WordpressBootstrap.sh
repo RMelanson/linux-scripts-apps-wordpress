@@ -12,9 +12,9 @@ fi
 #Git initialization installation
 yum install git -y
 
-#Set Cloning Properties
-#Need to setup to install wordpress under scripts/apps/
-pkg=wordpress
+# SETUP ENVIRONMENT AND PARAMETERS
+. ./env/setEnv.sh
+
 gitRepo="linux-scripts-apps-wordpress.git"
 installDir="/tmp/apps/wordpress"
 if [ -f ~/.ssh/gitHub.key ]; then
