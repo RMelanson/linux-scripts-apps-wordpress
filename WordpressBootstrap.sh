@@ -15,8 +15,6 @@ yum install git -y
 # SETUP ENVIRONMENT AND PARAMETERS
 . ./env/setEnv.sh
 
-gitRepo="linux-scripts-apps-wordpress.git"
-installDir="/tmp/apps/wordpress"
 if [ -f ~/.ssh/gitHub.key ]; then
    clone="git clone git@github.com:jasonantao/"
 else
