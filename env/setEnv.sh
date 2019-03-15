@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # WORDPRESS CONFIGURATION PARAMETERS
+pkg=WORDPRESS
 gitRepo="linux-scripts-apps-wordpress.git"
-installDir="/tmp/apps/wordpress"
+installDir="/tmp/apps/$pkg"
 
-pkg=wordpress
 mySqlAdmin=admin
 mySqlOwner=mySql
 mySqlGroup=mySql
