@@ -1,10 +1,13 @@
 #!/bin/bash
 
 # WORDPRESS CONFIGURATION PARAMETERS
-pkg=WORDPRESS
 bootstrap ="WordpressBootstrap.sh"
 gitRepo="linux-scripts-apps-wordpress.git"
-installDir="/tmp/apps/$pkg"
+
+pkg=WORDPRESS
+scriptType="apps"
+parentDir="/tmp/scripts/$scriptType/"
+installDir="$parentDir/$pkg"
 
 mySqlAdmin=admin
 mySqlOwner=mySql
