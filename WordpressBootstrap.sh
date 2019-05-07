@@ -1,6 +1,6 @@
 #!/bin/bash
 bootstrapDir=$PWD
-bootstrap=$webCurrDir/WordpressBootstrap.sh
+bootstrap=$bootstrapDir/WordpressBootstrap.sh
 
 # Ensure script is running under root
 if [ "$EUID" -ne 0 ]
