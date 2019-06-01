@@ -46,7 +46,7 @@ cd ./install/bootstraps/mysql/
 ./mySQLBootstrap.sh
 
 cd $installDir
-. ./setup.sh 2>&1| tee setup.log
+. ./setup.sh $* 2>&1| tee setup.log
 
 cd $bootstrapDir
 
