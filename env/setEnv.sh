@@ -9,7 +9,12 @@ scriptType="apps"
 parentDir="/tmp/scripts/$scriptType/"
 installDir="$parentDir/$pkg"
 
-mySqlAdmin=admin
+wpSiteName=mySql
+wpAdminId=admin
+wpAdminPassword=mySql
+wpInstallDirectory=./$siteName
+
+wpAdmin=admin
 mySqlOwner=mySql
 mySqlGroup=mySql
 mySqlHome=/opt/mySql
