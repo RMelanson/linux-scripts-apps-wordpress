@@ -1,4 +1,6 @@
 #. ./env/setEnv.sh $*
+
+# REMOVE THIS CODE Parameters ar set from the line abone
 #MySQL Params
 echo 'The dbName is: ' $1
 export dbName=$1
@@ -8,6 +10,7 @@ echo 'The dbpwd is: ' $3
 export dbpwd=$3
 echo 'The sitename is: ' $4
 export sitename=$4
+# End of code removal
 
 # #Install Web Server
 . ./install/installwebserver.sh
@@ -23,4 +26,3 @@ export sitename=$4
 
 # #Configure WordPress
 . ./install/configurewp.sh
-
