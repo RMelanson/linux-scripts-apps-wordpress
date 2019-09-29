@@ -15,8 +15,8 @@ Find your way using our directory below:
  Name  | Key Contact
 ------------- | -------------
 Jason Antao  | jasonsantao@gmail.com
-Robin Melanson  | robin.e.melanson@gmail.com
 
+<img src="https://github.com/jasonantao/linux-scripts-apps-wordpress/blob/master/utils/Intro.png" alt="drawing" width="600"/>
  - - - -
 ### Copyright Agreement <b>Package-Linux-Scripts-Bootstraps-Legal-Information ©</b> <img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/policeman.png" width="5%" align= "right">
 
@@ -79,13 +79,9 @@ It is recommended to read the contents of the scripts to be assured of the insta
 
 [![AWS MIGRATION](https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/maxresdefault.jpg)](https://youtu.be/T_d5-y8hpYI "AWS Migration")
 
-### About the Authors
-![Author Image](https://github.com/RMelanson/profile/blob/master/RobinPhoto.jpg)
-- Name: Robin Melanson
-- Email: robin.e.melanson@gmail.com
+### About the Author
 
-![Author Image](https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/Jason-320.jpg)
-- Co-Contributer 
+<img src="https://github.com/jasonantao/linux-scripts-apps-wordpress/blob/master/utils/Jason.JPG" alt="drawing" width="320"/>
 - Name: Jason Antao
 - email: jasonsantao@gmail.com
 - LinkedIn: www.linkedin.com/in/jason-antao

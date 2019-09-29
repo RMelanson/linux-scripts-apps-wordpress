@@ -12,6 +12,7 @@ fi
 
 yum install mysql -y
 sudo rpm -ivh mysql-5.5-1.6.amzn1.noarch.rpm
+sudo yum localinstall http://repo.mysql.com/mysql-community-release-el6-5.noarch.rpm -y
 yum update -y
 
 
@@ -61,6 +62,7 @@ find . -name "*.sh" -exec chmod 700 {} \;
 #./setup.sh 2>&1| tee setup.log
 
 exit;
+
 cd $mySqlCurrDir
 echo "You are now done and have installed mySQL Thank you for using this script by Jason Antao"
 #Add exit statement
@@ -69,3 +71,7 @@ ls
 sudo su
 yum install mysql -y
 mysql --version
+exit;
+
+
+exit;

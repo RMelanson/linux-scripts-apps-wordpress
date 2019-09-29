@@ -10,7 +10,6 @@ Find your way using our directory below:
 - [Package Contents](#package-contents)
 - [Running the Package](#running-the-package)
 - [Video Tutorial](#video-tutorial)
-- [About the Author](#about-the-authors)
  
  Name  | Key Contact
 ------------- | -------------
@@ -73,17 +72,6 @@ It is recommended to read the contents of the scripts to be assured of the insta
 - Comprehensive Video Tutorial Currently Under Construction. Resource will be posted as soon as it is ready for publication.
 
 [![AWS MIGRATION](https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/maxresdefault.jpg)](https://youtu.be/T_d5-y8hpYI "AWS Migration")
-
-### About the Authors
-![Author Image](https://github.com/jasonantao/linux-scripts-apps-mysql/blob/master/res/Jason.jpg)
-- Name: Jason Antao
-- email: jasonsantao@gmail.com
-- LinkedIn: www.linkedin.com/in/jason-antao
-
-![Author Image](https://github.com/RMelanson/profile/blob/master/RobinPhoto.jpg)
-- Name: Robin Melanson
-- Email: robin.e.melanson@gmail.com
-
 
 
 [Back To The Top](#directory-of-information)

@@ -1,25 +1,26 @@
-#! /bin/bash
-setupName=setup.sh:
+#. ./env/setEnv.sh $*
+#MySQL Params
+echo 'The dbName is: ' $1
+export dbName=$1
+echo 'The userName is: ' $2
+export userName=$2
+echo 'The dbpwd is: ' $3
+export dbpwd=$3
+echo 'The sitename is: ' $4
+export sitename=$4
 
-# SETUP THE ENVIRONMENT
-echo "$setupName: EXECUTING: . ./env/setEnv.sh $*"
-. ./env/setEnv.sh $*
-
-# COPY RESTORE 
-cp $pkg_RESTORE.sh ..
-
-#Install Web Server
+# #Install Web Server
 . ./install/installwebserver.sh
 
-#Install php-mysql
+# #Install php-mysql
 . ./install/installphpmysql.sh
 
-#Install WordPress
+# #Install WordPress
 . ./install/installwordpress.sh
 
-#Install MySQL
+# #Install MySQL
 . ./install/installmysql.sh
 
-#Configure WordPress
+# #Configure WordPress
 . ./install/configurewp.sh
 
