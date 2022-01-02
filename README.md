@@ -89,10 +89,10 @@ It is recommended to read the contents of the scripts to be assured of the insta
 
 ### About the Author
 
-<img src="https://github.com/jasonantao/linux-scripts-apps-wordpress/blob/master/utils/Jason.JPG" alt="drawing" width="320"/>
-- Name: Jason Antao
-- email: jasonsantao@gmail.com
-- LinkedIn: www.linkedin.com/in/jason-antao
+### About the Author
+![Author Image](https://github.com/RMelanson/profile/blob/master/RobinPhoto.jpg)
+- Name: Robin Melanson
+- email: robin.e.melanson@gmail.com
 
 [Back To The Top](#directory-of-information)
 
