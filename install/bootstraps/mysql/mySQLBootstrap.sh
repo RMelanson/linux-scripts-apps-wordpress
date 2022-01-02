@@ -64,7 +64,7 @@ find . -name "*.sh" -exec chmod 700 {} \;
 exit;
 
 cd $mySqlCurrDir
-echo "You are now done and have installed mySQL Thank you for using this script by Jason Antao"
+echo "You are now done and have installed mySQL Thank you for using this script by Robin Melanson"
 #Add exit statement
 ls
 #For second Linux AMI from AWS below
