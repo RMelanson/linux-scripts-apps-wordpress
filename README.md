@@ -14,6 +14,7 @@ Find your way using our directory below:
  
  Name  | Key Contact
 ------------- | -------------
+Robin Melanson  | robin.e.melanson@gmail.com
 Jason Antao  | jasonsantao@gmail.com
 
 <img src="https://github.com/RMelanson/linux-scripts-apps-wordpress/blob/master/utils/Intro.png" alt="drawing" width="800"/>
