@@ -90,6 +90,10 @@ It is recommended to read the contents of the scripts to be assured of the insta
 - email: jasonsantao@gmail.com
 - LinkedIn: www.linkedin.com/in/jason-antao
 
+![Author Image](https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/Jason-320.jpg)
+- Name: Jason Antao
+- email: jasonsantao@gmail.com
+- LinkedIn: www.linkedin.com/in/jason-antao
 
 [Back To The Top](#directory-of-information)
 
