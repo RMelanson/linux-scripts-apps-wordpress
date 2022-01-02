@@ -7,11 +7,11 @@ mySqlHome=/opt/mySql
 mySqlLog=/var/log/mySql
 
 #NOTE - THIS IS A SUB-NESTED LAYER AND SO EXPORTS MADE HERE WILL NOT BE AVAILABLE IN THE INDIVIDUAL INSTALL SCRIPTS
-dbName=wp_SponsorCoin
-userName=sc_admin
-dbpwd='dV+1306~!'
-siteName=sponsorCoin
-installDir=/opt/SC/bootstraps/apps/wordpress
+dbName=admin
+userName=admin
+dbpwd=pass
+siteName=mynewsite
+installDir=/opt/CI/bootstraps/apps/wordpress
 
 echo Setting External Args
 echo These Arguments Overwrite Default Argument Settings

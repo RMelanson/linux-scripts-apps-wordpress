@@ -8,7 +8,7 @@ echo "The order of arguments is Mysql dbName, userName, dbpwd"
 # Ensure script is running under root
 if [ "$EUID" -ne 0 ]
   then echo "Error Cannot Proceed, Must Run as Root or Under Sudo"
-  return -1
+  exit -1
 fi
 
 #Git initialization installation
@@ -20,11 +20,11 @@ pkg=wordpress
 gitRepo="linux-scripts-apps-wordpress.git"
 installDir="/tmp/apps/wordpress"
 folderDir="/tmp/apps"
-if [ -f ~/.ssh/gitHub.key ]; then
-   clone="git clone git@github.com:jasonantao/"
-else
-   clone="git clone https://github.com/jasonantao/"
-fi
+#if [ -f ~/.ssh/gitHub.key ]; then
+   #clone="git clone git@github.com:rmelanson/"
+#else
+   #clone="git clone https://github.com/rmelanson/"
+#fi
 
 # Clone $pkg
 echo Executing $clone$gitRepo $installDir
