@@ -43,9 +43,9 @@ gitRepo="linux-scripts-apps-mysql.git"
 #Do I need an install directory for mySQL below? Please advise.
 installDir="/tmp/scripts/apps/WEB"
 if [ -f ~/.ssh/gitHub.key ]; then
-   clone="git clone -b $branch git@github.com:jasonantao/"
+   clone="git clone -b $branch git@github.com:RMelanson/"
 else
-   clone="git clone -b $branch https://github.com/jasonantao/"
+   clone="git clone -b $branch https://github.com/RMelanson/"
 fi
 
 # Act of Cloning
