@@ -42,9 +42,9 @@ gitRepo="linux-scripts-apps-mysql.git"
 installDir="/tmp/scripts/db/mySQL"
 
 if [ -f ~/.ssh/gitHub.key ]; then
-   clone="git clone git@github.com:jasonantao/"
+   clone="git clone git@github.com:RMelanson/"
 else
-   clone="git clone https://github.com/jasonantao/"
+   clone="git clone https://github.com/RMelanson/"
 fi
 
 # Clone $pkg
