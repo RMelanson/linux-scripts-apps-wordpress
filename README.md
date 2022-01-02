@@ -86,7 +86,7 @@ It is recommended to read the contents of the scripts to be assured of the insta
 ### Video Tutorial<img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/video.png" width="5%" align= "right">
 - Comprehensive Video Tutorial Currently Under Construction. Resource will be posted as soon as it is ready for publication.
 
-[![AWS MIGRATION](https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/maxresdefault.jpg)](https://youtu.be/T_d5-y8hpYI "AWS Migration")
+[![PLACE HOLDER For Video Tutorial](https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/maxresdefault.jpg)](https://youtu.be/T_d5-y8hpYI "AWS Migration")
 
 ### About the Authors
 ![Author Image](https://github.com/RMelanson/profile/blob/master/RobinPhoto.jpg)
