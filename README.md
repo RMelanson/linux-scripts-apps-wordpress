@@ -82,13 +82,12 @@ It is recommended to read the contents of the scripts to be assured of the insta
 ### About the Authors
 ![Author Image](https://github.com/RMelanson/profile/blob/master/RobinPhoto.jpg)
 - Name: Robin Melanson
-- Hands On Author/Architect
+- Author/Architect
 - Email: robin.e.melanson@gmail.com
 
-![Contribuitor Image]<img src="https://github.com/jasonantao/linux-scripts-apps-wordpress/blob/master/utils/Jason.JPG" alt="drawing" width="320"/>
-
-- Co-Contributer 
+![Author Image]<img src="https://github.com/jasonantao/linux-scripts-apps-wordpress/blob/master/utils/Jason.JPG" alt="drawing" width="320"/>
 - Name: Jason Antao
+- Co-Contributer
 - email: jasonsantao@gmail.com
 - LinkedIn: www.linkedin.com/in/jason-antao
 
