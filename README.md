@@ -88,8 +88,6 @@ It is recommended to read the contents of the scripts to be assured of the insta
 [![AWS MIGRATION](https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/maxresdefault.jpg)](https://youtu.be/T_d5-y8hpYI "AWS Migration")
 
 ### About the Author
-
-### About the Author
 ![Author Image](https://github.com/RMelanson/profile/blob/master/RobinPhoto.jpg)
 - Name: Robin Melanson
 - email: robin.e.melanson@gmail.com
