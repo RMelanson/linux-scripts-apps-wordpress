@@ -93,6 +93,12 @@ It is recommended to read the contents of the scripts to be assured of the insta
 - Name: Robin Melanson
 - email: robin.e.melanson@gmail.com
 
+<img src="https://github.com/jasonantao/linux-scripts-apps-wordpress/blob/master/utils/Jason.JPG" alt="drawing" width="320"/>
+- Name: Jason Antao
+- email: jasonsantao@gmail.com
+- LinkedIn: www.linkedin.com/in/jason-antao
+
+
 [Back To The Top](#directory-of-information)
 
 
