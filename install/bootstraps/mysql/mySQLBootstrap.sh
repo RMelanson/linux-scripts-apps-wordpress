@@ -39,7 +39,7 @@ yum install git -y
 #Set Cloning Properties
 pkg=mySQL
 gitRepo="linux-scripts-apps-mysql.git"
-installDir="/tmp/scripts/db/mySQL"
+dBDownloadDir="/tmp/scripts/db/mySQL"
 
 if [ -f ~/.ssh/gitHub.key ]; then
    clone="git clone git@github.com:RMelanson/"
@@ -48,11 +48,11 @@ else
 fi
 
 # Clone $pkg
-echo Executing $clone$gitRepo $installDir
-$clone$gitRepo $installDir
+echo Executing $clone$gitRepo $dBDownloadDir
+$clone$gitRepo $dBDownloadDir
 
 # Setup $pkg
-cd $installDir
+cd $dBDownloadDir
 
 # MAKE ALL SHELL SCRIPTS EXECUTABLE TO ROOT ONLY
 find . -name "*.sh" -exec chmod 700 {} \;

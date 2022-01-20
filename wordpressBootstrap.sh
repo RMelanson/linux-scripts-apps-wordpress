@@ -11,14 +11,18 @@ if [ "$EUID" -ne 0 ]
   exit -1
 fi
 
+echoLog(){
+ echo $* 2>&1 | tee -a setup.log
+}
+
 #Git initialization installation
-yum install git -y
+#yum install git -y
 
 #Set Cloning Properties
 #Need to setup to install wordpress under scripts/apps/
 pkg=wordpress
 gitRepo="linux-scripts-apps-wordpress.git"
-installDir="/tmp/apps/wordpress"
+wpDownloadDir="/tmp/apps/wordpress"
 folderDir="/tmp/apps"
 #if [ -f ~/.ssh/gitHub.key ]; then
    #clone="git clone git@github.com:RMelanson/"
@@ -27,23 +31,21 @@ folderDir="/tmp/apps"
 #fi
 
 # Clone $pkg
-echo Executing $clone$gitRepo $installDir
-$clone$gitRepo $installDir
+echo Executing $clone$gitRepo $wpDownloadDir
+$clone$gitRepo $wpDownloadDir
 
 # Setup $pkg
-cd $installDir
+cd $wpDownloadDir
 
 # MAKE ALL SHELL SCRIPTS EXECUTABLE TO ROOT ONLY
 #Ensure under root
 find . -name "*sh" -exec chmod 700 {} \;
 
-cd ./install/bootstraps/mysql/
-./mySQLBootstrap.sh
+#cd ./install/bootstraps/mysql/
+#./mySQLBootstrap.sh
 
-
-cd $installDir
-. ./setup.sh $* 2>&1| tee setup.log
-
+cd $wpDownloadDir
+. ./setup.sh $* 2>&1 | tee setup.log
 
 cd $wpCurrDir
 #Remove Root Files now

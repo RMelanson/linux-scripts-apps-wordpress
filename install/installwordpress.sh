@@ -1,4 +1,5 @@
 #Installing WordPress
+
 echo 'Installing WordPress'
 echo '===================== Executing installwordpress.sh ==================================='
 

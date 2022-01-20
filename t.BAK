@@ -1,0 +1,55 @@
+echoLog(){
+ echo $* 2>&1 | tee -a setup.log
+}
+
+is_current_shell(){
+  shell=$0
+  [ $shell = "-bash" ]
+}
+
+#if ! is_current_shell
+#then {
+  #echoLog ERROR: Not current shell
+  #echoLog USAGE: . $0
+  #echoLog EXITING . $0
+  #exit
+#}
+#fi
+
+# is_root_user: Determine if current user is root (id = 0)
+is_root_user(){
+  [ $(id -u) -eq 0 ]
+}
+
+# is_sudo_user: Determine if current user is sudo user
+is_sudo_user(){
+  [ "$(getent group wheel | grep $(whoami))" != "" ]
+}
+
+# has_su_access has sudo access
+has_su_access(){
+if is_root_user 
+  then {
+    echo ROOT USER
+    return 0
+  }
+  elif is_sudo_user
+  then {
+    echo SUDO USER
+    return 0
+  }
+  fi
+  echo NO SU ACCESS
+  return 1
+}
+
+exit_if_no_su_access(){
+  if ! is_root_user
+    then {
+    echoLog ERROR: SU Access Required to run
+    exit 0
+  }
+  fi
+}
+
+exit_if_no_su_access

@@ -11,7 +11,7 @@ dbName=wp_SponsorCoin
 userName=sc_admin
 dbpwd='dV+1306~!'
 siteName=sponsorCoin
-installDir=/opt/SC/bootstraps/apps/wordpress
+wpInstallDir=/var/www/html/sponsorCoin
 
 echo Setting External Args
 echo These Arguments Overwrite Default Argument Settings

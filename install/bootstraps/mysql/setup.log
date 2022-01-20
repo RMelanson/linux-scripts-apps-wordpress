@@ -1,1 +1,1 @@
-/home/ec2-user/linux-scripts-apps-wordpress/WordpressBootstrap.sh: line 45: ./setup.sh: No such file or directory
+./wordpressBootstrap.sh: line 50: ./setup.sh: No such file or directory
